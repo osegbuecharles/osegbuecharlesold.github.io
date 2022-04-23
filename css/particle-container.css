@@ -1,0 +1,29 @@
+body{
+    overflow-x: hidden;
+}
+
+canvas{
+    display:block;
+    position: fixed;
+    height:auto;
+}
+
+#header canvas{
+    top:0;
+}
+
+.pJS_canvas_class{
+    position: absolute;    
+}
+
+.canvas{
+    position: relative;
+    width:100%;
+    overflow-x:none;
+}
+
+.canvas canvas{
+    top:0;
+    width:100%;
+    height:auto;
+}

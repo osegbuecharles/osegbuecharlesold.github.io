@@ -1,0 +1,30 @@
+
+#option1{
+    background-image: url("../assets/option1.png");
+}
+
+#option2{
+    background-image: url("../assets/option2.png");
+}
+
+#option3{
+    background-image: url("../assets/option3.png");
+}
+
+#option4{
+    background-image: url("../assets/option5.png");
+}
+
+#option5{
+    background-image: url("../assets/option6.png");
+}
+
+#option6{
+    background-image: url("../assets/option4.png");
+}
+
+
+.card:hover .card-text{
+    font-weight: bold;
+}
+

@@ -1,0 +1,53 @@
+
+.definition{
+    font-weight:bold;
+    font-size:large;
+    margin-top: 10px;
+}
+
+.projectImage{
+    width: 70%;
+}
+
+.pvcon{
+    padding-left: auto;
+    
+}
+
+.projectVideo{
+    text-align: center;
+    margin-left:170px;
+    margin-right: auto;    
+}
+
+#cmsCarousel .projectImage{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cmsCarousel .carouselCaption{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.carouselText{
+    background-color: rgb(104, 91, 72);
+    color:white;
+}
+
+#cmsCarousel{
+    text-align:center;
+}
+
+
+@media screen and (max-width:960px){
+    .projectImage{
+        width: 100%;
+    }
+    .projectVideo{
+        text-align: center;
+        margin-left:auto;
+        margin-right: auto;    
+    }
+}

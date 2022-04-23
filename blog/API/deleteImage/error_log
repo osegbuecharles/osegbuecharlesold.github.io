@@ -1,0 +1,1 @@
+[14-Apr-2021 08:32:25 America/New_York] PHP Warning:  unlink(../../uploads/images/2021Apr140831_image.jpg): No such file or directory in /home/hridnhwu/public_html/osegbuecharles/API/deleteImage/index.php on line 37

@@ -1,0 +1,17 @@
+#blogContent{
+    line-height: 32px;
+}
+
+.comment{
+    box-shadow: -3px -3px 6px rgb(199, 197, 197);
+}
+
+#lk:hover{
+    color:red;
+}
+
+@media screen and (max-width:510px){
+    .resImg{
+        width:80%;
+    }
+}

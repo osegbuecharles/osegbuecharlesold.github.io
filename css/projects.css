@@ -1,0 +1,185 @@
+.content{
+    font-size:large;
+}
+
+.view{
+    color:rgb(28, 241, 28);
+    font-weight: bold;
+}
+
+.view:hover{
+    color:rgb(18, 209, 18);
+}
+
+.card:hover{
+    cursor:pointer;
+}
+
+/*For the inventory System*/
+#ivs:hover{
+    border: solid thin rgb(240, 54, 54);
+}
+
+#ivs .card-header{
+    background-image: linear-gradient(to right, #837f7f, #162529);
+    color:white;
+}
+
+#ivs .card-body{
+    background-image: linear-gradient(to right, #a5a3a3, #1b2c30);
+    color:white;
+}
+
+
+/* For the clinic management system */
+#cms:hover{
+    border: solid thin rgb(252, 4, 4);
+}
+
+#cms .card-header{
+    background-image: linear-gradient(to right, #052f4b, #442204);
+    color:white;
+}
+
+#cms .card-body{
+    background-image: linear-gradient(to right, #055A92, #823C00);
+    color:white;
+}
+
+/* For the idealHR*/
+#ihr:hover{
+    border: solid thin rgb(194, 6, 6);
+}
+
+#ihr .card-header{
+    background-image: linear-gradient(to right, red, blue);
+    color:white;
+}
+
+#ihr .card-body{
+    background-image: linear-gradient(to right, red, blue);
+    color:white;
+}
+
+
+/* For baymar eyecare website */
+#baymar:hover{
+    border: solid thin rgb(240, 54, 54);
+}
+
+#baymar .card-header{
+    background-image: linear-gradient(to right, rgb(230, 217, 217), #21979b);
+    color:black;
+}
+
+#baymar .card-body{
+    background-image: linear-gradient(to right, white, #3FBBC0);
+    color:black;
+}
+
+
+
+/* For the voting system*/
+#vs:hover{
+    border: solid thin rgb(240, 54, 54);
+}
+
+#vs .card-header{
+    background-image: linear-gradient(to right, #9e0826, #000000);
+    color:white;
+}
+
+#vs .card-body{
+    background-image: linear-gradient(to right, #DC143C, #000000);
+    color:white;
+}
+
+/* For other systems*/
+#others:hover{
+    border: solid thin rgb(240, 54, 54);
+}
+
+#others .card-header{
+    background-image: linear-gradient(to right, rgb(44, 44, 219), #000000);
+    color:white;
+}
+
+#others .card-body{
+    background-image: linear-gradient(to right, rgb(83, 83, 219), #000000);
+    color:white;
+}
+
+
+.views{
+    display:none;
+}
+
+.list{
+    
+}
+
+.card-text{
+    color:white;
+}
+
+.backlist{
+    float:left;
+}
+
+.about{
+    font-size: larger;
+    
+}
+
+.definition{
+    font-weight:bold;
+    font-size:large;
+    margin-top: 10px;
+}
+
+.projectImage{
+    width: 70%;
+}
+
+.pvcon{
+    padding-left: auto;
+    
+}
+
+.projectVideo{
+    text-align: center;
+    margin-left:170px;
+    margin-right: auto;    
+}
+
+#cmsCarousel .projectImage{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cmsCarousel .carouselCaption{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.carouselText{
+    background-color: rgb(104, 91, 72);
+    color:white;
+}
+
+#cmsCarousel{
+    text-align:center;
+}
+
+
+@media screen and (max-width:960px){
+    .projectImage{
+        width: 100%;
+    }
+    .projectVideo{
+        text-align: center;
+        margin-left:auto;
+        margin-right: auto;    
+    }
+}

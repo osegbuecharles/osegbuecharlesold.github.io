@@ -1,0 +1,21 @@
+.likeIcon:hover{
+    color: red;
+  }
+  
+  .shareBlog:hover{
+    color:#0458A6;
+  }
+  
+  
+  .entry-img img{
+    width: 100%;
+  }
+
+  #blogHead{
+      font-family: font3;
+  }
+
+
+
+
+

@@ -1,0 +1,67 @@
+#loginbtn{
+  background-color: #0458A6;
+  color:white;
+}
+
+#main, #login{
+  display: none;
+}
+
+#welcome{
+  color:#04294b;
+}
+
+#editProfile, #cancelProfile, #editSettings, #cancelSettings{
+  font-size: x-large;
+  cursor: pointer;
+  float:right;
+}
+
+#cancelProfile,#cancelSettings{
+  display:none;
+}
+
+#editProfile:hover, #cancelProfile:hover, #editSettings:hover, #cancelSettings:hover{
+  color:red;
+}
+
+.error_message{
+  font-size:xx-large; 
+  color:bold;
+  color:red;
+}
+
+.empty_message{
+  font-size:xx-large; 
+  text-align:center;
+  color:bold;
+  color:red;
+}
+
+.enquiry_date{
+  font-size:large;
+  font-weight:bold;
+}
+
+.divider{
+  width:0px;
+  height: 15px;
+  border: solid thin;
+  float:left;
+}
+
+#refreshButton{
+  position:fixed;
+  right: 0px;
+  top:100px;
+}
+
+.imgThumbnail{
+  width:5%;
+}
+
+@media screen and (max-width:650px){
+  .imgThumbnail{
+    width:10%;
+  }
+}

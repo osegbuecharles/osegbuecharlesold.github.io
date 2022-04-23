@@ -1,0 +1,17 @@
+.profile-image{
+    border-radius:50%;
+    height:10hv;
+    width:11%;
+    background: inherit;
+}
+
+.contents{
+    font-size: large;
+    background: inherit;
+}
+
+@media screen and (max-width:700px){
+    .profile-image{
+        width:20%;
+    }
+}
